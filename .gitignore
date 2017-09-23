@@ -2,3 +2,4 @@ __pycache__
 env
 htmlcov
 db_aws
+db_local
