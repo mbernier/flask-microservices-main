@@ -8,7 +8,7 @@ services:
     ports:
         - 5435:5432  # expose ports - HOST:CONTAINER
     environment:
-      - POSTGRES_USER=mbernier
+      - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
     healthcheck:
       test: exit 0
